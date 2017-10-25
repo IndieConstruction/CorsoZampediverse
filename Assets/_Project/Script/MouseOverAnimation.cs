@@ -5,14 +5,15 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class MouseOverAnimation : MonoBehaviour {
 
-    [Tooltip("Indicare il nome parametro booleano dell'animation controller che controlla l'animazione all'OnMouseOver.")]
+    [Tooltip("Indicare il nome parametro booleano dell'animation controller che controlla l'animazione all'OnMouseOver. Se non indicato il parametro di default sarà 'Open'")]
     public string OverAnimationParameterName;
-
-    Animator anim;
+    public Animator anim;
 
 	// Use this for initialization
 	void Start () {
-        anim = GetComponent<Animator>();
+        // anim = GetComponent<Animator>();
+        if(OverAnimationParameterName == "")
+            OverAnimationParameterName = "Open";
 	}
 	
 	// Update is called once per frame
@@ -21,10 +22,10 @@ public class MouseOverAnimation : MonoBehaviour {
 	}
 
     private void OnMouseOver() {
-        anim.SetBool("Open", true);
+        anim.SetBool(OverAnimationParameterName, true);
     }
 
     private void OnMouseExit() {
-        anim.SetBool("Open", false);
+        anim.SetBool(OverAnimationParameterName, false);
     }
 }
