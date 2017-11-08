@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MouseOverAnimation : MonoBehaviour {
 
-    [Tooltip("Indicare il nome parametro booleano dell'animation controller che controlla l'animazione all'OnMouseOver. Se non indicato il parametro di default sarà 'Open'")]
+    [Tooltip("Indicare il nome del parametro booleano dell'animation controller che controlla l'animazione all'OnMouseOver. Se non indicato il parametro di default sarà 'Open'")]
     public string OverAnimationParameterName;
     public Animator anim;
 

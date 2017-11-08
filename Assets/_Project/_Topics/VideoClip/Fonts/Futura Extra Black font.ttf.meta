@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ddb0494a48918dd4b9f40b668a61fa9a
+timeCreated: 1510136508
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Futura XBlk BT
+  fontNames:
+  - Futura XBlk BT
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
