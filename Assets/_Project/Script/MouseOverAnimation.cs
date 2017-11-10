@@ -2,29 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouseOverAnimation : MonoBehaviour {
+namespace Zampediverse.UnityToolkit {
 
-    [Tooltip("Indicare il nome del parametro booleano dell'animation controller che controlla l'animazione all'OnMouseOver. Se non indicato il parametro di default sarà 'Open'")]
-    public string OverAnimationParameterName;
-    public Animator anim;
+    public class MouseOverAnimation : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-        // anim = GetComponent<Animator>();
-        if(OverAnimationParameterName == "")
-            OverAnimationParameterName = "Open";
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+        [Tooltip("Indicare il nome del parametro booleano dell'animation controller che controlla l'animazione all'OnMouseOver. Se non indicato il parametro di default sarà 'Open'")]
+        public string OverAnimationParameterName;
+        public Animator anim;
 
-    private void OnMouseOver() {
-        anim.SetBool(OverAnimationParameterName, true);
-    }
+        // Use this for initialization
+        void Start() {
+            // anim = GetComponent<Animator>();
+            if (OverAnimationParameterName == "")
+                OverAnimationParameterName = "Open";
+        }
 
-    private void OnMouseExit() {
-        anim.SetBool(OverAnimationParameterName, false);
+
+        private void OnMouseOver() {
+            anim.SetBool(OverAnimationParameterName, true);
+        }
+
+        private void OnMouseExit() {
+            anim.SetBool(OverAnimationParameterName, false);
+        }
     }
 }

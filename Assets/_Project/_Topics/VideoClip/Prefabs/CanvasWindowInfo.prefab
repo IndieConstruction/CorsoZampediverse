@@ -342,6 +342,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd61f32cd12522a4b8179145f1c19d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextInfoBox: "Cerchi dei mobili dal design lineare per la tua camera da letto? La
+    nostra serie MALM \xE8 quello che fa al caso tuo! Scopri tutti gli elementi funzionali
+    di questa serie, come il contenitore del letto o la cassettiera che puoi usare
+    anche come comodino. Ma non finisce qui. Disponibile in diverse impiallacciature
+    di legno, MALM ti permette di scegliere la soluzione pi\xF9 adatta al tuo stile."
+  TextComponentTarget: {fileID: 114564982132162340}
   VideoController: {fileID: 0}
 --- !u!114 &114403113897324506
 MonoBehaviour:
@@ -458,8 +464,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 3
-  m_fontSizeBase: 3
+  m_fontSize: 1.1
+  m_fontSizeBase: 1.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -602,7 +608,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1408730346618150}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 14.52, z: 0}
+  m_LocalPosition: {x: 0, y: 14.539915, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4306057264460128}
@@ -611,7 +617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.48}
+  m_AnchoredPosition: {x: 0, y: -0.47999573}
   m_SizeDelta: {x: -1.89, y: 16.537}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &224868783759329304
@@ -621,7 +627,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1630428897967528}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.01842308, y: -0.019924164, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4393201144534972}
@@ -632,8 +638,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.01842308, y: -0.019924164}
+  m_SizeDelta: {x: 0.036857605, y: 0.03982067}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224916677471044606
 RectTransform:
