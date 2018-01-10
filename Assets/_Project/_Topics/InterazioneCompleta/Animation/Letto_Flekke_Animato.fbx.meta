@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: 0a8eaa5c2af3d1f428032f1fa2aefb28
+timeCreated: 1510840161
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cassetto1
+    100002: Cassetto2
+    100004: Cuscino1
+    100006: Cuscino2
+    100008: //RootNode
+    100010: Materasso_Fisso
+    100012: Materasso_Mobile
+    100014: Null_Cassetto1
+    100016: Null_Cassetto2
+    100018: Null_Cuscino1
+    100020: Null_Cuscino2
+    100022: Null_Materasso_Mobile
+    100024: Null_Piumone
+    100026: Null_Telaio_Doghe
+    100028: Piumone
+    100030: Piumone_MeshPart0
+    100032: Piumone_MeshPart1
+    100034: Telaio_Doghe
+    100036: Telaio_Principale
+    400000: Cassetto1
+    400002: Cassetto2
+    400004: Cuscino1
+    400006: Cuscino2
+    400008: //RootNode
+    400010: Materasso_Fisso
+    400012: Materasso_Mobile
+    400014: Null_Cassetto1
+    400016: Null_Cassetto2
+    400018: Null_Cuscino1
+    400020: Null_Cuscino2
+    400022: Null_Materasso_Mobile
+    400024: Null_Piumone
+    400026: Null_Telaio_Doghe
+    400028: Piumone
+    400030: Piumone_MeshPart0
+    400032: Piumone_MeshPart1
+    400034: Telaio_Doghe
+    400036: Telaio_Principale
+    2300000: Cassetto1
+    2300002: Cassetto2
+    2300004: Cuscino1
+    2300006: Cuscino2
+    2300008: Materasso_Fisso
+    2300010: Materasso_Mobile
+    2300012: Piumone_MeshPart0
+    2300014: Piumone_MeshPart1
+    2300016: Telaio_Doghe
+    2300018: Telaio_Principale
+    3300000: Cassetto1
+    3300002: Cassetto2
+    3300004: Cuscino1
+    3300006: Cuscino2
+    3300008: Materasso_Fisso
+    3300010: Materasso_Mobile
+    3300012: Piumone_MeshPart0
+    3300014: Piumone_MeshPart1
+    3300016: Telaio_Doghe
+    3300018: Telaio_Principale
+    4300000: Telaio_Principale
+    4300002: Telaio_Doghe
+    4300004: Cassetto1
+    4300006: Cassetto2
+    4300008: Cuscino1
+    4300010: Cuscino2
+    4300012: Piumone_MeshPart0
+    4300014: Piumone_MeshPart1
+    4300016: Materasso_Fisso
+    4300018: Materasso_Mobile
+    7400000: Apertura
+    7400002: Chiusura
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Apertura
+      takeName: CINEMA_4D_Generale
+      firstFrame: 0
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Telaio_Principale
+        weight: 1
+      - path: Telaio_Principale/Materasso_Fisso
+        weight: 1
+      - path: Telaio_Principale/Null_Cuscino1
+        weight: 1
+      - path: Telaio_Principale/Null_Cuscino1/Cuscino1
+        weight: 1
+      - path: Telaio_Principale/Null_Cuscino2
+        weight: 1
+      - path: Telaio_Principale/Null_Cuscino2/Cuscino2
+        weight: 1
+      - path: Telaio_Principale/Null_Materasso_Mobile
+        weight: 1
+      - path: Telaio_Principale/Null_Materasso_Mobile/Materasso_Mobile
+        weight: 1
+      - path: Telaio_Principale/Null_Piumone
+        weight: 1
+      - path: Telaio_Principale/Null_Piumone/Piumone
+        weight: 1
+      - path: Telaio_Principale/Null_Piumone/Piumone/Piumone_MeshPart0
+        weight: 1
+      - path: Telaio_Principale/Null_Piumone/Piumone/Piumone_MeshPart1
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe/Telaio_Doghe
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe/Telaio_Doghe/Null_Cassetto1
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe/Telaio_Doghe/Null_Cassetto1/Cassetto1
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe/Telaio_Doghe/Null_Cassetto2
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe/Telaio_Doghe/Null_Cassetto2/Cassetto2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chiusura
+      takeName: CINEMA_4D_Generale
+      firstFrame: 66
+      lastFrame: 131
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Telaio_Principale
+        weight: 1
+      - path: Telaio_Principale/Materasso_Fisso
+        weight: 1
+      - path: Telaio_Principale/Null_Cuscino1
+        weight: 1
+      - path: Telaio_Principale/Null_Cuscino1/Cuscino1
+        weight: 1
+      - path: Telaio_Principale/Null_Cuscino2
+        weight: 1
+      - path: Telaio_Principale/Null_Cuscino2/Cuscino2
+        weight: 1
+      - path: Telaio_Principale/Null_Materasso_Mobile
+        weight: 1
+      - path: Telaio_Principale/Null_Materasso_Mobile/Materasso_Mobile
+        weight: 1
+      - path: Telaio_Principale/Null_Piumone
+        weight: 1
+      - path: Telaio_Principale/Null_Piumone/Piumone
+        weight: 1
+      - path: Telaio_Principale/Null_Piumone/Piumone/Piumone_MeshPart0
+        weight: 1
+      - path: Telaio_Principale/Null_Piumone/Piumone/Piumone_MeshPart1
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe/Telaio_Doghe
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe/Telaio_Doghe/Null_Cassetto1
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe/Telaio_Doghe/Null_Cassetto1/Cassetto1
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe/Telaio_Doghe/Null_Cassetto2
+        weight: 1
+      - path: Telaio_Principale/Null_Telaio_Doghe/Telaio_Doghe/Null_Cassetto2/Cassetto2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -29,7 +29,7 @@ namespace Zampediverse.UnityToolkit {
         private float totalRun = 1.0f;
 
         void Awake() {
-            transform.rotation = Quaternion.Euler(25, 0, 0);
+            //transform.rotation = Quaternion.Euler(25, 0, 0);
         }
 
         void Update() {
