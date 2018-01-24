@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 6e7f968cf7f2faf4e997af08c8751f2a
+timeCreated: 1515596265
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body
+    100004: Front cover
+    100006: Glass
+    100008: Jack head
+    100010: Mesh_Speaker
+    100012: Mesh_Speaker_MeshPart0
+    100014: Mesh_Speaker_MeshPart1
+    100016: Mesh_Speaker_MeshPart2
+    100018: Mesh_Speaker_MeshPart3
+    100020: Mesh_Speaker_MeshPart4
+    100022: microUSB
+    100024: Screen
+    400000: //RootNode
+    400002: Body
+    400004: Front cover
+    400006: Glass
+    400008: Jack head
+    400010: Mesh_Speaker
+    400012: Mesh_Speaker_MeshPart0
+    400014: Mesh_Speaker_MeshPart1
+    400016: Mesh_Speaker_MeshPart2
+    400018: Mesh_Speaker_MeshPart3
+    400020: Mesh_Speaker_MeshPart4
+    400022: microUSB
+    400024: Screen
+    2300000: Body
+    2300002: Front cover
+    2300004: Glass
+    2300006: Jack head
+    2300008: Mesh_Speaker_MeshPart0
+    2300010: Mesh_Speaker_MeshPart1
+    2300012: Mesh_Speaker_MeshPart2
+    2300014: Mesh_Speaker_MeshPart3
+    2300016: Mesh_Speaker_MeshPart4
+    2300018: microUSB
+    2300020: Screen
+    3300000: Body
+    3300002: Front cover
+    3300004: Glass
+    3300006: Jack head
+    3300008: Mesh_Speaker_MeshPart0
+    3300010: Mesh_Speaker_MeshPart1
+    3300012: Mesh_Speaker_MeshPart2
+    3300014: Mesh_Speaker_MeshPart3
+    3300016: Mesh_Speaker_MeshPart4
+    3300018: microUSB
+    3300020: Screen
+    4300000: Body
+    4300002: Glass
+    4300004: Front cover
+    4300006: Screen
+    4300008: Mesh_Speaker_MeshPart0
+    4300010: Mesh_Speaker_MeshPart1
+    4300012: Mesh_Speaker_MeshPart2
+    4300014: Mesh_Speaker_MeshPart3
+    4300016: Mesh_Speaker_MeshPart4
+    4300018: microUSB
+    4300020: Jack head
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Apple Glass
+    second: {fileID: 2100000, guid: 1b6da866901be624cbe64294dc84ab87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black plastic
+    second: {fileID: 2100000, guid: 9df2a71809efcd847991f52531df620b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 6b8755b0b607d4e41bc7fa6e3881ef76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Copper
+    second: {fileID: 2100000, guid: 8938a7d7738bc3d4ea57f94062b8c444, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crystal
+    second: {fileID: 2100000, guid: 7736efee196dfb648a23a1eeb0279cd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front cover
+    second: {fileID: 2100000, guid: 4d79c1ecec5056640833a181454a7a66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 7d5abc461cecc2743bfa06c1814fa625, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray color
+    second: {fileID: 2100000, guid: 0ace9320525b11f4aa1ec30ca46e4dff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Home botton
+    second: {fileID: 2100000, guid: 817e1f82fbe9bd24884ff4a009e2de3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal _camera
+    second: {fileID: 2100000, guid: 38fb8e83b99cd384892b1ac4db8f0269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen
+    second: {fileID: 2100000, guid: 459fc7b37024add40acdeb2f8d4c8b4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_plastic
+    second: {fileID: 2100000, guid: 8d490e8081c968640b5e37c1bac9b9f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome shiny
+    second: {fileID: 2100000, guid: 5198ad08ee5525149ad6571cc47b4015, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

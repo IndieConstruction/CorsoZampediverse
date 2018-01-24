@@ -59,9 +59,9 @@ LightmapSettings:
     m_BakeResolution: 40
     m_TextureWidth: 1024
     m_TextureHeight: 1024
-    m_AO: 0
+    m_AO: 1
     m_AOMaxDistance: 1
-    m_CompAOExponent: 1
+    m_CompAOExponent: 1.84
     m_CompAOExponentDirect: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &804219043
 Transform:
   m_ObjectHideFlags: 0
@@ -520,6 +520,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainSpeed: 10
   camSens: 0.25
+  KeyForeward: 119
+  KeyBackward: 115
+  KeyRight: 100
+  KeyLeft: 97
 --- !u!1001 &892527033
 Prefab:
   m_ObjectHideFlags: 0
@@ -1106,13 +1110,13 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.4705882, g: 0.46376324, b: 0.4256055, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
-    m_Resolution: 3
+    m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
@@ -1127,7 +1131,7 @@ Light:
     m_Bits: 4294967295
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 4
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0

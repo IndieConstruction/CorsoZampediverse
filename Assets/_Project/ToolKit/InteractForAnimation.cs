@@ -56,6 +56,40 @@ namespace Zampediverse.UnityToolkit {
 
         #endregion
 
+        #region Collider
+
+        private void OnTriggerEnter(Collider other) {
+            if (MouseInteraction != MouseInteractionType.Collision)
+                return;
+            doInteract(true);
+        }
+
+        private void OnTriggerStay(Collider other) {
+            if (MouseInteraction != MouseInteractionType.Collision)
+                return;
+            doInteract(true);
+        }
+
+        private void OnTriggerExit(Collider other) {
+            if (MouseInteraction != MouseInteractionType.Collision)
+                return;
+            doInteract(false);
+        }
+
+        //private void OnCollisionEnter(Collision collision) {
+        //    if (MouseInteraction != MouseInteractionType.Collision)
+        //        return;
+        //    doInteract(true);
+        //}
+
+        //private void OnCollisionExit(Collision collision) {
+        //    if (MouseInteraction != MouseInteractionType.Collision)
+        //        return;
+        //    doInteract(false);
+        //}
+
+        #endregion
+
         #region External interaction
 
         /// <summary>
@@ -102,33 +136,6 @@ namespace Zampediverse.UnityToolkit {
             anim.SetBool(OverAnimationParameterName, _open);
         }
 
-        #region Collider
-
-        private void OnTriggerEnter(Collider other) {
-            if (MouseInteraction != MouseInteractionType.Collision)
-                return;
-            doInteract(true);
-        }
-
-        private void OnTriggerExit(Collider other) {
-            if (MouseInteraction != MouseInteractionType.Collision)
-                return;
-            doInteract(false);
-        }
-
-        //private void OnCollisionEnter(Collision collision) {
-        //    if (MouseInteraction != MouseInteractionType.Collision)
-        //        return;
-        //    doInteract(true);
-        //}
-
-        //private void OnCollisionExit(Collision collision) {
-        //    if (MouseInteraction != MouseInteractionType.Collision)
-        //        return;
-        //    doInteract(false);
-        //}
-
-        #endregion
 
         /// <summary>
         /// Setta lo stato opposto a quello attuale.
